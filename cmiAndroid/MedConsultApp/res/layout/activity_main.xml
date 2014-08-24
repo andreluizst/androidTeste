@@ -9,8 +9,17 @@
     tools:context="br.com.android.medconsult.medconsultapp.MainActivity" >
 
     <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />
+
+    <CalendarView
+        android:id="@+id/calendarView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/textView1"
+        android:animateLayoutChanges="true"
+        android:longClickable="true" />
 
 </RelativeLayout>
